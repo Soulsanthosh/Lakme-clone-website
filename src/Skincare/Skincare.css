@@ -1,0 +1,212 @@
+.home-button{
+  padding: 10px 0px 10px 10px ;
+}
+.home-button span{
+    font-size: 23px;
+}
+.lips-gallery img{
+    width: 100%;
+}
+.content{
+    font-size: 20px;
+    margin: 20px 0px 40px 0px;
+    text-align: center;
+}
+.try-on-content{
+    display:flex;
+    justify-content: space-around;
+}
+.try-on-content div{
+    height: fit-content;
+    width: 275px;
+    border: 2px solid grey;
+    justify-items: center;
+    padding: 25px 0px 25px 0px;
+}
+.try-on-content div>p{
+    font-weight: 900;
+    font-size: 20px;
+}
+.try-on-content img{
+    height: 200px;
+    width: 225px;
+}
+.try-on-content button>img{
+    height: 15px;
+    width: 20px;
+    margin: 0px 7px 0px 0px;
+}
+.try-on-content div>button{
+    border: none;
+    align-items: center;
+    padding: 5px 20px;
+    font-size: 15px;
+}
+.try-on-content div>button:hover{
+    color: white;
+    background-image: linear-gradient(to right,rgb(196, 195, 195),rgb(253, 233, 117),rgb(253, 233, 117),rgb(196, 196, 196));
+}
+.categrory-heading{
+  justify-items: center;
+  padding: 40px 0px 0px 0px;
+}
+.categrory-heading h1{
+  width: fit-content;
+  color: rgb(255, 61, 93);
+  border-bottom: 2px solid rgb(255, 61, 93);
+  padding: 0px 0px 5px 0px;
+}
+
+.filter-content{
+    height: fit-content;
+    width: fit-content;
+    padding: 20px;
+}
+.filter{
+    color: rgb(56, 56, 56);
+    font-weight: 900;
+    font-size: 20px;
+}
+.categrory,.price-range{
+    margin: 0px 0px 0px 15px;
+}
+.categrory-heading{
+    color: rgb(56, 56, 56);
+    font-weight: 900;
+    font-size: 15px;
+}
+.categrory-heading span{
+    font-size: 20px;
+    font-weight: 900;
+    color: black;
+    margin: 0px 0px 0px 40px;
+}
+.categrory-heading span:hover{
+    cursor:pointer ;
+}
+
+.radio-buttons {
+    display: flex;
+    flex-direction: column;
+    color: white;
+  }
+  
+  .radio-button {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+    cursor: pointer;
+  }
+  
+  .radio-button input[type="radio"] {
+    display: none;
+  }
+  
+  .radio-circle {
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    border: 2px solid #aaa;
+    position: relative;
+    margin-right: 10px;
+  }
+  
+  .radio-circle::before {
+    content: "";
+    display: block;
+    width: 12px;
+    height: 12px;
+    border-radius: 50%;
+    background-color: #ddd;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%) scale(0);
+    transition: all 0.2s ease-in-out;
+  }
+  
+  .radio-button input[type="radio"]:checked + .radio-circle::before {
+    transform: translate(-50%, -50%) scale(1);
+  }
+  
+  .radio-button:nth-of-type(1) input[type="radio"]:checked + .radio-circle::before {
+    background-color: #e4d00a;
+  }
+  
+  .radio-button:nth-of-type(2) input[type="radio"]:checked + .radio-circle::before {
+    background-color: #e4d00a;
+  }
+  
+  .radio-button:nth-of-type(3) input[type="radio"]:checked + .radio-circle::before {
+    background-color: #e4d00a;
+  }
+
+  .radio-button:nth-of-type(4) input[type="radio"]:checked + .radio-circle::before {
+    background-color: #e4d00a;
+  }
+  
+  .radio-label {
+    color: rgb(100, 100, 100);
+    font-size: 16px;
+    font-weight: bold;
+  }
+  
+  .radio-button:hover .radio-circle {
+    border-color: #555;
+  }
+  
+  .radio-button:hover input[type="radio"]:checked + .radio-circle::before {
+    background-color: #555;
+  }
+  
+  .slider-distance {
+    position: relative;
+    width: 100%;
+  }
+  
+.slider {
+  -webkit-appearance: none;
+  width: 200px;
+  height: 15px;
+  background: rgb(223, 48, 48);
+  border: 1px solid rgb(255, 255, 255);
+  border-radius: 30px;
+  outline: none;
+  transition: opacity 0.2s;
+}
+  
+.slider::-webkit-slider-thumb {
+  -webkit-appearance: none;
+  appearance: none;
+  width: 25px;
+  height: 25px;
+  background-image: url("/public/Lips images/lip_icon.jpg");
+  background-size: cover;
+  background-color: rgb(255, 255, 255);
+  border: 1px solid grey;
+  border-radius: 50%;
+  cursor: pointer;
+  margin: -5px 0px 0px 0px;
+}
+.sign{
+  font-size: 20px;
+  font-weight: 900;
+}
+.sign span>span{
+  color: white;
+}
+#input1{
+  margin: 7px 0px 0px -270px;
+}
+#input2{
+  margin: 0px 0px 0px -202px;
+  background: none;
+  border: none;
+}
+#all-categrories-in-one-div5{
+  position: absolute;
+}
+#all-categrories-in-one-div5>div{
+  position: relative;
+
+}

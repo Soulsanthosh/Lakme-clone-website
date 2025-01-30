@@ -1,0 +1,58 @@
+.Footer1{
+    height: fit-content;
+    width: 100%;
+    background-color: black;
+}
+
+
+/* From Uiverse.io by alexruix */ 
+.input-group {
+    display: flex;
+    align-items: center;
+  }
+  
+  .input {
+    min-height: 50px;
+    max-width: 150px;
+    padding: 0 1rem;
+    color: #fff;
+    font-size: 15px;
+    border: 1px solid #bdb70f;
+    border-radius: 6px 0 0 6px;
+    background-color: transparent;
+  }
+  
+  .button--submit {
+    min-height: 51px;
+    padding: .5em 1em;
+    border: none;
+    border-radius: 0 6px 6px 0;
+    background-color: #bdb70f;
+    color: #fff;
+    font-size: 15px;
+    cursor: pointer;
+    transition: background-color .3s ease-in-out;
+  }
+  
+  .button--submit:hover {
+    background-color: #bdb70f;
+  }
+  
+  .input:focus, .input:focus-visible {
+    border-color: #bdb70f;
+    outline: none;
+  }
+
+  .not1{
+    display: flex;
+    align-items: center;
+    font-size: 30px;
+    margin-top: 80px;
+    justify-content: center;
+}
+.line1{
+    height: 2px;
+    width: 100px;
+    background-color: rgb(255, 255, 255);
+}
+  

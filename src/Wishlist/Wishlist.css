@@ -1,0 +1,120 @@
+.wish-ul-div{
+    border: 1px solid #ccc;
+    padding: 10px;
+    justify-items: center;
+}
+.wish-ul-div1{
+    display: flex;
+    justify-items: center;
+    /* align-items: center; */
+}
+.wish-ul-div1 img{
+    height: 200px;
+    width: 220px;
+}
+.wish-ul-div1-button{
+    background-color: white;
+    border: 1px solid goldenrod;
+    color: goldenrod;
+    height: 40px;
+    font-size:20px ;
+    font-weight: 500;
+    padding: 8px 10px;
+    border-radius: 50%;
+    margin: -5px 0px 0px 15px;
+}
+.wish-ul-div1-button:hover{
+    color: red;
+    border:1px solid red;
+}
+.wish-ul-div1-button {
+    /* Your regular button styles here */
+    background-color: white;
+    border: 1px solid goldenrod;
+    color: goldenrod;
+    height: 40px;
+    font-size:20px ;
+    font-weight: 500;
+    padding: 8px 10px;
+    cursor: pointer;
+    position: relative; /* Required for pseudo-elements */
+
+    /* Add a transition for smooth hover effect */
+    transition: background-color 0.3s ease;
+}
+
+.wish-ul-div1-button:hover::before {
+    content: "Remove"; /* The text you want to display */
+    position: absolute;
+    top: -35px; /* Adjust this value to position the text */
+    left: 50%;
+    transform: translateX(-50%);
+    background-color:rgb(255, 36, 73); /* Background color for the text */
+    color: white;
+    padding: 5px 10px;
+    border-radius: 5px;
+    opacity: 0; /* Initially hidden */
+    transition: opacity 0.3s ease;
+}
+.wish-ul-div1-button:hover::before {
+    opacity: 1; /* Show the text on hover */
+}
+.wish-ul-div2{
+    text-align:center;
+}
+.wish-ul-div2-p1{
+    width: 180px;
+}
+.wish-ul-div2-p2{
+    margin: 0px 0px 0px 30px;
+}
+.wish-ul-rating{
+    margin: 0px 0px 0px -200px;
+}
+.wish-ul-button {
+    font-size: 18px;
+    font-weight: 900;
+    height: 40px;
+    width: 250px;
+    margin: 20px 0px 15px 0px;
+    position: relative;
+    background-color: transparent;
+    cursor: pointer;
+    border: 1px solid rgb(255, 36, 73);
+    overflow: hidden;
+    color: rgb(255, 36, 73);
+    transition: all 0.5s ease-in-out;
+  }
+  
+  .btn-txt {
+    z-index: 1;
+    font-weight: 900;
+    letter-spacing: 4px;
+  }
+  
+  .type2::after {
+    content: "";
+    position: absolute;
+    left: 0;
+    top: 0;
+    transition: all 0.5s ease-in-out;
+    /* background-color: #000000; */
+    background-color:rgb(255, 36, 73);
+    border-radius: 30px;
+    visibility: hidden;
+    height: 10px;
+    width: 10px;
+    z-index: -1;
+  }
+  
+  .wish-ul-button:hover {
+    box-shadow: 1px 1px 200px #ffffff;
+    color: #fff;
+    border: none;
+  }
+  
+  .type2:hover::after {
+    visibility: visible;
+    transform: scale(100) translateX(2px);
+  }
+

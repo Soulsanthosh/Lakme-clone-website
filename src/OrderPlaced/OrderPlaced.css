@@ -1,0 +1,49 @@
+.overall-placeorder {
+    text-align: center;
+    padding: 40px 0;
+}
+
+.overall-placeorder h1 {
+    color: green;
+    font-family: "Nunito Sans", "Helvetica Neue", sans-serif;
+    font-weight: 900;
+    font-size: 40px;
+    margin-bottom: 10px;
+}
+
+.overall-placeorder p {
+    color: #404F5E;
+    font-family: "Nunito Sans", "Helvetica Neue", sans-serif;
+    font-size: 20px;
+    margin: 0px;
+}
+
+.checkmark-div{
+    border-radius:200px;
+    height:200px;
+    width:200px;
+    background: #F8FAF5;
+    margin:0 auto;
+    border: 5px double green;
+    animation: show 2s forwards 1;
+}
+
+@keyframes show {
+    0%{scale: 0;}
+    100%{scale: 1;}
+}
+
+.checkmark-div i {
+    color: green;
+    font-size: 100px;
+    line-height: 200px;
+    margin-left: -15px;
+}
+
+.placeorder-card {
+    background: white;
+    padding: 60px;
+    border-radius: 4px;
+    display: inline-block;
+    margin: -40px 0px 0px 0px;
+}

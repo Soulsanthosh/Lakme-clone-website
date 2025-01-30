@@ -1,0 +1,126 @@
+.bag-ul-div1{
+    border: 2px solid #ff4141;
+    padding: 10px;
+    margin: 0px 10px 10px 0px;
+    width: fit-content;
+}
+.bag-ul-div2{
+    display: flex;
+    align-items: center;
+}
+.bag-ul-div2 img{
+    height: 120px;
+    width: 120px;
+}
+.bag-ul-div2-div1{
+    text-align: center;
+    margin: 0px 30px;
+    height: 170px;
+}
+.bag-ul-div2-div1-p1{ 
+    font-size: 20px;
+    width: 200px;
+}
+.bag-ul-div2-div1-p2{
+    font-size: 20px;
+}
+.bag-ul-div3{
+    display: flex;
+    align-items: center;
+    margin: 20px 135px;
+    gap:10px;
+}
+.bag-ul-div3-button1{
+    font-size:20px;
+    background-color:none;
+    border-radius: 5px;
+}
+.bag-ul-div3-p{
+    margin: 0px 10px;
+    font-size: 20px;
+}
+.bag-ul-div3-button2{
+    font-size:20px;
+    background-color:none;
+    border-radius: 5px;
+}
+.bag-ul-div3-button1:hover{
+    background-color: black;
+    color: white;
+    border-color: white;
+}
+.bag-ul-div3-button2:hover{
+    background-color: black;
+    color: white;
+    border-color: white;
+}
+.bag-ul-button{
+ font-size: 20px;
+ width: 200px;
+ margin:10px 85px;
+}
+.bag-ul-button:hover{
+    background-color: rgb(255, 55, 88);
+    color: white;
+    border-color: rgb(255, 55, 88);
+}
+
+.totalprice-in-bag{
+    text-align: center;
+    font-size: 20px;
+    font-weight: bold;
+    float: right;
+    margin-top: 40px;
+    display: flex;
+    align-items: center;
+}
+.totalprice-in-bag p{
+    border-top: 2px solid black;
+    border-bottom: 2px solid black;
+    padding: 10px;
+}
+.buttonforbag {
+    font-size: 15px;
+    font-weight: 600;
+    height: 50px;
+    width: 200px;
+    margin: 0px 30px 0px 30px;
+    position: relative;
+    background-color: transparent;
+    cursor: pointer;
+    border: 2px solid #ff0000;
+    overflow: hidden;
+    color: #000000;
+    transition: all 0.5s ease-in-out;
+  }
+  
+  .btn-txt {
+    z-index: 1;
+    font-weight: 900;
+    letter-spacing: 4px;
+  }
+  
+  .type2::after {
+    content: "";
+    position: absolute;
+    left: 0;
+    top: 0;
+    transition: all 0.5s ease-in-out;
+    background-color: #ff0000;
+    border-radius: 30px;
+    visibility: hidden;
+    height: 10px;
+    width: 10px;
+    z-index: -1;
+  }
+  
+  .buttonforbag:hover {
+    box-shadow: 1px 1px 200px #ffffff;
+    color: #fff;
+    border: none;
+  }
+  
+  .type2:hover::after {
+    visibility: visible;
+    transform: scale(100) translateX(2px);
+  }

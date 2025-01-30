@@ -1,0 +1,102 @@
+.sign-body{
+    background-image: url(/public/Sign/Sign-bg.png);
+    background-repeat: no-repeat;
+    background-size:cover;
+    display: flex;
+    justify-content: center;
+    height: 568px;
+}
+.overall{
+    background-color: rgba(255, 255, 255, 0.601);
+    border-radius: 50px;
+    height: fit-content;
+    margin-top: 2.5%;   
+}
+.sign-in{
+    width: fit-content;
+    height: fit-content;
+    padding: 10px 50px;
+    margin: 100px 0px 105px 0px;
+    justify-items: center;
+}
+.sign-in input{
+    height: 30px ;
+    width: 250px;
+    font-size: 18px;
+    border:1px solid black ;
+    border-radius: 7px;
+    padding: 0px 0px 0px 10px;
+    margin: 15px 0px 15px 0px;
+}
+.sign-in input::placeholder{
+    color: black;
+    position: absolute;
+}
+.sign-in button{
+    font-size: 20px ;
+    font-weight: 900;
+    border: 2px solid rgb(255, 0, 43);
+    border-radius: 25px;
+    margin: 15px 0px 10px 65px;
+    padding: 8px 23px 8px 23px;
+    background-color: white;
+}
+.sign-in button:hover{
+    background-color: rgb(255, 0, 43);
+    color: white;
+    transition: all 0.7s;
+}
+.sign-in p{
+    text-align: center;
+}
+.sign-in p>span{
+    color: blue;
+    text-decoration: underline;
+}
+.sign-in p>span:hover{
+    cursor: pointer;
+}
+.sign-up{
+    width: fit-content;
+    height: fit-content;
+    padding: 10px 50px;
+    justify-items: center;
+    display: none;
+}
+.sign-up input{
+    height: 30px ;
+    width: 250px;
+    font-size: 18px;
+    border:1px solid black ;
+    border-radius: 7px;
+    padding: 0px 0px 0px 10px;
+    margin: 15px 0px 15px 0px;
+}
+.sign-up input::placeholder{
+    color: black;
+    position: absolute;
+}
+.sign-up button{
+    font-size: 20px ;
+    font-weight: 900;
+    border: 2px solid rgb(255, 0, 43);
+    border-radius: 25px;
+    margin: 15px 0px 10px 65px;
+    padding: 8px 23px 8px 23px;
+    background-color: white;
+}
+.sign-up button:hover{
+    background-color: rgb(255, 0, 43);
+    color: white;
+    transition: all 0.8s;
+}
+.sign-up p{
+    text-align: center;
+}
+.sign-up p>span{
+    color: blue;
+    text-decoration: underline;
+}
+.sign-up p>span:hover{
+    cursor: pointer;
+}

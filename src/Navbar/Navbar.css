@@ -1,0 +1,139 @@
+.Navbar {
+  height: 80px;
+  background-color: #1b1b1b;
+  text-align: center;
+}
+.Navicons img {
+  margin: 0px 20px 0px 10px;
+  float: right;
+}
+.Navicons {
+  margin-top: -30px;
+}
+.SecNavbar {
+  height: 40px;
+  background-color: rgb(255, 255, 255);
+  display: flex;
+  box-shadow: 0px 5px 10px rgb(105, 104, 104);
+  justify-content: space-around;
+  
+  
+}
+
+.Nav-p{
+    font-weight: 500;
+    font-size: larger;
+    margin-top: 5px;
+    text-decoration: underline white;
+    cursor: pointer;
+    color: black;
+}
+.Nav-p:hover{
+  color: rgb(255, 0, 43);
+}
+
+.Nav-dropdown {
+  position: relative;
+  display: inline-block;
+  width: fit-content;
+  height: fit-content;
+}
+.Nav-dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f1f1f1;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+  z-index: 1;
+  margin-top: -10px;
+}
+.Nav-dropdown-content a:hover{
+  color: rgb(255, 0, 43);
+}
+.Nav-dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  font-weight: 500;
+}
+.Nav-dropdown-content a:hover {
+  background-color: #ddd;
+}
+.Nav-dropdown:hover .Nav-dropdown-content {
+  display: block;
+}
+.Navicons-image-01{
+  cursor: pointer;
+  position: relative;/* Required for pseudo-elements */
+  transition: background-color 0.3s ease;
+}
+.Navicons-image-01:hover::before {
+  content: "Bag"; /* The text you want to display */
+  position: absolute;
+  top: -25px; /* Adjust this value to position the text */
+  left: 600px;
+  font-size: 20px;
+  z-index: 1;
+  transform: translateX(-50%);
+  background-color: #6e6e6e;
+  padding: 5px 15px;
+  color: white;
+  border-radius: 15px;
+  opacity: 0; /* Initially hidden */
+  transition: opacity 0.3s ease;
+}
+.Navicons-image-01:hover::before {
+  opacity: 1; /* Show the text on hover */
+}
+
+
+.Navicons-image-02{
+  cursor: pointer;
+  position: relative;/* Required for pseudo-elements */
+  transition: background-color 0.3s ease;
+}
+.Navicons-image-02:hover::before {
+  content: "Sig  in/up"; /* The text you want to display */
+  position: absolute;
+  top: -25px; /* Adjust this value to position the text */
+  left: 510px;
+  width: 90px;
+  font-size: 20px;
+  z-index: 1;
+  transform: translateX(-50%);
+  background-color: #6e6e6e;
+  padding: 5px 15px;
+  color: white;
+  border-radius: 15px;
+  opacity: 0; /* Initially hidden */
+  transition: opacity 0.3s ease;
+}
+.Navicons-image-02:hover::before {
+  opacity: 1; /* Show the text on hover */
+}
+
+
+.Navicons-image-03{
+  cursor: pointer;
+  position: relative;/* Required for pseudo-elements */
+  transition: background-color 0.3s ease;
+}
+.Navicons-image-03:hover::before {
+  content: "Search"; /* The text you want to display */
+  position: absolute;
+  top: -25px; /* Adjust this value to position the text */
+  left: 460px;
+  font-size: 20px;
+  z-index: 1;
+  transform: translateX(-50%);
+  background-color: #6e6e6e;
+  padding: 5px 15px;
+  color: white;
+  border-radius: 15px;
+  opacity: 0; /* Initially hidden */
+  transition: opacity 0.3s ease;
+}
+.Navicons-image-03:hover::before {
+  opacity: 1; /* Show the text on hover */
+}
